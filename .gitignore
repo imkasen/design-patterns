@@ -1,6 +1,8 @@
 
 # Edit at linux,macos,windows,visualstudiocode,c++,cmake,vim,emacs,visualstudio,jetbrains+all
 
+app
+
 ### C++ ###
 # Prerequisites
 *.d
@@ -35,22 +37,22 @@
 *.out
 *.app
 
-### CMake ###
-CMakeLists.txt.user
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-_deps
-
-### CMake Patch ###
-# External projects
-*-prefix/
+#### CMake ###
+#CMakeLists.txt.user
+#CMakeCache.txt
+#CMakeFiles
+#CMakeScripts
+#Testing
+#Makefile
+#cmake_install.cmake
+#install_manifest.txt
+#compile_commands.json
+#CTestTestfile.cmake
+#_deps
+#
+#### CMake Patch ###
+## External projects
+#*-prefix/
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
