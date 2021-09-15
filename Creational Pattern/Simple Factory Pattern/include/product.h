@@ -1,10 +1,10 @@
-#ifndef DESIGN_PATTERNS_IMPLEMENTATION_PRODUCT_H
-#define DESIGN_PATTERNS_IMPLEMENTATION_PRODUCT_H
+#ifndef SIMPLE_FACTORY_PATTERN_PRODUCT_H
+#define SIMPLE_FACTORY_PATTERN_PRODUCT_H
 
 class Product {
 public:
     Product() = default;
-    ~Product() = default;
+    virtual ~Product() = default;
 
     virtual void use() const = 0;
 };

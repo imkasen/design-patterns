@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_IMPLEMENTATION_CONCRETE_PRODUCT_A_H
-#define DESIGN_PATTERNS_IMPLEMENTATION_CONCRETE_PRODUCT_A_H
+#ifndef SIMPLE_FACTORY_PATTERN_CONCRETE_PRODUCT_A_H
+#define SIMPLE_FACTORY_PATTERN_CONCRETE_PRODUCT_A_H
 
 #include "product.h"
 #include <iostream>
@@ -9,7 +9,7 @@ public:
     ConcreteProductA() = default;
     ~ConcreteProductA() = default;
 
-    virtual void use() const final;
+    void use() const override;
 };
 
 #endif
