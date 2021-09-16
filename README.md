@@ -12,3 +12,5 @@
   5. [原型模式](./Creational%20Pattern/Prototype%20Pattern/README.md)
   6. [单例模式](./Creational%20Pattern/Singleton%20Pattern/README.md)
 * [结构型模式](./Structural%20Pattern/README.md)
+  1. [适配器模式](./Structural%20Pattern/Adapter%20Pattern/README.md)
+  2. [桥接模式](./Structural%20Pattern/Bridge%20Pattern/README.md)
