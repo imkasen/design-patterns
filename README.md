@@ -10,3 +10,4 @@
   3. [抽象工程模式](./Creational%20Pattern/Abstract%20Factory%20Pattern/README.md)
   4. [建造者模式](./Creational%20Pattern/Builder%20Pattern/README.md)
   5. [原型模式](./Creational%20Pattern/Prototype%20Pattern/README.md)
+  6. [单例模式](./Creational%20Pattern/Singleton%20Pattern/README.md)
