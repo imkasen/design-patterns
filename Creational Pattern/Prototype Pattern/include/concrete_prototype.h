@@ -8,8 +8,8 @@ class ConcretePrototype : public Prototype,
     public std::enable_shared_from_this<ConcretePrototype> {
 public:
     ConcretePrototype() = default;
-    ConcretePrototype(std::string field);
-    ConcretePrototype(std::shared_ptr<Prototype> prototype);
+    ConcretePrototype(const std::string &field);
+    ConcretePrototype(const std::shared_ptr<Prototype> &prototype);
     virtual ~ConcretePrototype() = default;
 
     virtual std::shared_ptr<Prototype> clone() override;

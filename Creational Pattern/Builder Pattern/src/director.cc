@@ -8,6 +8,6 @@ std::shared_ptr<Product> Director::construct() {
     return this->builder->getResult();
 }
 
-void Director::setBuilder(std::shared_ptr<Builder> builder_ptr) {
+void Director::setBuilder(const std::shared_ptr<Builder> &builder_ptr) {
     this->builder = builder_ptr;
 }

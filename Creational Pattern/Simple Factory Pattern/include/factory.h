@@ -12,7 +12,7 @@ public:
     Factory() = default;
     ~Factory() = default;
 
-    std::unique_ptr<Product> createProduct(std::string pro_name);
+    std::unique_ptr<Product> createProduct(const std::string &pro_name);
 };
 
 #endif

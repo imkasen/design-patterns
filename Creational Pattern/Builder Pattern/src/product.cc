@@ -1,14 +1,14 @@
 #include "../include/product.h"
 
-void Product::setA(std::string str) {
+void Product::setA(const std::string &str) {
     this->str_a = str;
 }
 
-void Product::setB(std::string str) {
+void Product::setB(const std::string &str) {
     this->str_b = str;
 }
 
-void Product::setC(std::string str) {
+void Product::setC(const std::string &str) {
     this->str_c = str;
 }
 

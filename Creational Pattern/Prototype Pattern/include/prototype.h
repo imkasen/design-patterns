@@ -9,8 +9,8 @@ protected:
     std::string field;
 public:
     Prototype() = default;
-    Prototype(std::string field);
-    Prototype(std::shared_ptr<Prototype> prototype);
+    Prototype(const std::string &field);
+    Prototype(const std::shared_ptr<Prototype> &prototype);
     virtual ~Prototype() = default;
 
     virtual std::shared_ptr<Prototype> clone() = 0;

@@ -6,8 +6,8 @@
 class SubclassPrototype : public ConcretePrototype {
 public:
     SubclassPrototype() = default;
-    SubclassPrototype(std::string field);
-    SubclassPrototype(std::shared_ptr<Prototype> prototype);
+    SubclassPrototype(const std::string &field);
+    SubclassPrototype(const std::shared_ptr<Prototype> &prototype);
     ~SubclassPrototype() = default;
 
     std::shared_ptr<Prototype> clone() override;

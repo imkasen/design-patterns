@@ -14,9 +14,9 @@ public:
     Product() = default;
     ~Product() = default;
 
-    void setA(std::string str);
-    void setB(std::string str);
-    void setC(std::string str);
+    void setA(const std::string &str);
+    void setB(const std::string &str);
+    void setC(const std::string &str);
 
     void show() const;
 };

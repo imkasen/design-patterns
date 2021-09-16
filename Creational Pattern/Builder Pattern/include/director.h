@@ -11,7 +11,7 @@ public:
     ~Director() = default;
 
     std::shared_ptr<Product> construct();
-    void setBuilder(std::shared_ptr<Builder> builder_ptr);
+    void setBuilder(const std::shared_ptr<Builder> &builder_ptr);
 };
 
 #endif
