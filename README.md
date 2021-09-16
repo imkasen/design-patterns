@@ -9,3 +9,4 @@
   2. [工厂方法模式](./Creational%20Pattern/Factory%20Method%20Pattern/README.md)
   3. [抽象工程模式](./Creational%20Pattern/Abstract%20Factory%20Pattern/README.md)
   4. [建造者模式](./Creational%20Pattern/Builder%20Pattern/README.md)
+  5. [原型模式](./Creational%20Pattern/Prototype%20Pattern/README.md)
