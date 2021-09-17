@@ -15,3 +15,4 @@
   1. [适配器模式](./Structural%20Pattern/Adapter%20Pattern/README.md)
   2. [桥接模式](./Structural%20Pattern/Bridge%20Pattern/README.md)
   3. [组合模式](./Structural%20Pattern/Composite%20Pattern/README.md)
+  4. [装饰模式](./Structural%20Pattern/Decorator%20Pattern/README.md)
