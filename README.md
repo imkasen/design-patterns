@@ -17,3 +17,4 @@
   3. [组合模式](./Structural%20Pattern/Composite%20Pattern/README.md)
   4. [装饰模式](./Structural%20Pattern/Decorator%20Pattern/README.md)
   5. [外观模式](./Structural%20Pattern/Facade%20Pattern/README.md)
+  6. [享元模式](./Structural%20Pattern/Flyweight%20Pattern/README.md)
