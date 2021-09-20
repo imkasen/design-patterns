@@ -20,3 +20,5 @@
   6. [享元模式](./Structural%20Pattern/Flyweight%20Pattern/README.md)
   7. [代理模式](./Structural%20Pattern/Proxy%20Pattern/README.md)
 * [行为型模式](./Behavioral%20Pattern/README.md)
+  1. [责任链模式](./Behavioral%20Pattern/Chain%20of%20Responsibility%20Pattern/README.md)
+  2. [命令模式](./Behavioral%20Pattern/Command%20Pattern/README.md)
