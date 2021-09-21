@@ -8,7 +8,7 @@ public:
     MonkeyHandler() = default;
     ~MonkeyHandler() = default;
 
-    void handle(std::string reuqest) const override;
+    void handle(const std::string &reuqest) const override;
 };
 
 #endif

@@ -10,7 +10,7 @@ private:
     std::shared_ptr<Receiver> receiver;
 public:
     ConcreteCommand() = default;
-    ConcreteCommand(std::shared_ptr<Receiver> receiver_ptr);
+    ConcreteCommand(const std::shared_ptr<Receiver> &receiver_ptr);
     ~ConcreteCommand() = default;
 
     void execute() const override;

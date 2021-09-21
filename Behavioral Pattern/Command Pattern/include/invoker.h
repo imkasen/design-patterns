@@ -10,7 +10,7 @@ private:
     std::shared_ptr<Command> command;
 public:
     Invoker() = default;
-    Invoker(std::shared_ptr<Command> command_ptr);
+    Invoker(const std::shared_ptr<Command> &command_ptr);
     ~Invoker() = default;
 
     void call() const;

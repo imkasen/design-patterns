@@ -10,8 +10,8 @@ public:
     Handler() = default;
     virtual ~Handler() = default;
 
-    virtual std::shared_ptr<Handler> setNext(std::shared_ptr<Handler> handler) = 0;
-    virtual void handle(std::string request) const;
+    virtual std::shared_ptr<Handler> setNext(const std::shared_ptr<Handler> &handler) = 0;
+    virtual void handle(const std::string &request) const;
 };
 
 #endif

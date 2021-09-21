@@ -10,8 +10,8 @@ public:
     AbstractHandler() = default;
     virtual ~AbstractHandler() = default;
 
-    virtual std::shared_ptr<Handler> setNext(std::shared_ptr<Handler> handler) override;
-    virtual void handle(std::string request) const override;
+    virtual std::shared_ptr<Handler> setNext(const std::shared_ptr<Handler> &handler) override;
+    virtual void handle(const std::string &request) const override;
 };
 
 #endif

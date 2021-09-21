@@ -8,7 +8,7 @@ public:
     SquirrelHandler() = default;
     ~SquirrelHandler() = default;
 
-    void handle(std::string reuqest) const override;
+    void handle(const std::string &reuqest) const override;
 };
 
 #endif
