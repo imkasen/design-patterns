@@ -3,4 +3,3 @@
 也叫门面模式。
 
 * 参考[《图解设计模式》](https://design-patterns.readthedocs.io/zh_CN/latest/structural_patterns/facade.html)
-* 参考[《深入设计模式》](https://refactoringguru.cn/design-patterns/facade)
