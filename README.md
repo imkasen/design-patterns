@@ -27,3 +27,5 @@
   5. [观察者模式](./Behavioral%20Pattern/Observer%20Pattern/README.md)
   6. [状态模式](./Behavioral%20Pattern/State%20Pattern/README.md)
   7. [策略模式](./Behavioral%20Pattern/Strategy%20Pattern/README.md)
+  8. [模板方法模式](./Behavioral%20Pattern/Template%20Method%20Pattern/README.md)
+  9. [访问者模式](./Behavioral%20Pattern/Visitor%20Pattern/README.md)
