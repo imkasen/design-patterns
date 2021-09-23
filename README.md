@@ -22,3 +22,8 @@
 * [行为型模式](./Behavioral%20Pattern/README.md)
   1. [责任链模式](./Behavioral%20Pattern/Chain%20of%20Responsibility%20Pattern/README.md)
   2. [命令模式](./Behavioral%20Pattern/Command%20Pattern/README.md)
+  3. [中介者模式](./Behavioral%20Pattern/Mediator%20Pattern/README.md)
+  4. [备忘录模式](./Behavioral%20Pattern/Memento%20Pattern/README.md)
+  5. [观察者模式](./Behavioral%20Pattern/Observer%20Pattern/README.md)
+  6. [状态模式](./Behavioral%20Pattern/State%20Pattern/README.md)
+  7. [策略模式](./Behavioral%20Pattern/Strategy%20Pattern/README.md)
