@@ -7,8 +7,8 @@
 class ConcreteMediator : public Mediator, 
     public std::enable_shared_from_this<ConcreteMediator> {
 private:
-    std::shared_ptr<Component1> component1;
-    std::shared_ptr<Component2> component2;
+    std::weak_ptr<Component1> component1;
+    std::weak_ptr<Component2> component2;
 public:
     ConcreteMediator() = default;
     ConcreteMediator(const std::shared_ptr<Component1> &com1_ptr, 

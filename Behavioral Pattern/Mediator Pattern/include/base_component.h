@@ -5,7 +5,7 @@
 
 class BaseComponent {
 protected:
-    std::shared_ptr<Mediator> mediator;
+    std::weak_ptr<Mediator> mediator;
 public:
     BaseComponent() = default;
     BaseComponent(const std::shared_ptr<Mediator> &mediator_ptr);
