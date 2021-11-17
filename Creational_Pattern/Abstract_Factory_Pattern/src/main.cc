@@ -14,5 +14,5 @@ int main(int argc, char* argv[]) {
     prd_a2_ptr->use();
     prd_b2_ptr->eat();
 
-    return EXIT_SUCCESS;
+    return 0;
 }

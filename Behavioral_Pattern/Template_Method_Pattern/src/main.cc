@@ -10,5 +10,5 @@ int main(int argc, char* argv[]) {
     std::unique_ptr<ConcreteClass2> cc2_ptr = std::make_unique<ConcreteClass2>();
     cc2_ptr->templateMethod();
 
-    return EXIT_SUCCESS;
+    return 0;
 }

@@ -15,5 +15,5 @@ int main(int argc, char* argv[]) {
         mh_ptr->handle(f);
     }
 
-    return EXIT_SUCCESS;
+    return 0;
 }

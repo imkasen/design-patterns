@@ -13,5 +13,5 @@ int main(int argc, char* argv[]) {
     cca_ptr->accept(cv2_ptr);
     ccb_ptr->accept(cv2_ptr);
 
-    return EXIT_SUCCESS;
+    return 0;
 }

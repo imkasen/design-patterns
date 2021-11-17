@@ -11,5 +11,5 @@ int main(int argc, char* argv[]) {
     prd_a_ptr->use();
     prd_b_ptr->use();
 
-    return EXIT_SUCCESS;
+    return 0;
 }

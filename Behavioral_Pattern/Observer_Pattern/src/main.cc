@@ -15,5 +15,5 @@ int main(int argc, char* argv[]) {
     sub_ptr->setState(2);
     sub_ptr->notify();
 
-    return EXIT_SUCCESS;
+    return 0;
 }

@@ -8,6 +8,6 @@ int main(int argc, char* argv[]) {
     pa_ptr->use();
     pb_ptr->use();
 
-    return EXIT_SUCCESS;
+    return 0;
 }
 

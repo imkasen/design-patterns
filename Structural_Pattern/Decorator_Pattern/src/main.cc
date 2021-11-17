@@ -11,5 +11,5 @@ int main(int argc, char* argv[]) {
     decorator1->operation();
     decorator2->operation();
 
-    return EXIT_SUCCESS;
+    return 0;
 }

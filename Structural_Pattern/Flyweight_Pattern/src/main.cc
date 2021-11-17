@@ -9,5 +9,5 @@ int main(int argc, char* argv[]) {
     std::shared_ptr<Flyweight> fw_ptr3 = fac_ptr->getFlyweight("one");
     fw_ptr3->operation();
 
-    return EXIT_SUCCESS;
+    return 0;
 }

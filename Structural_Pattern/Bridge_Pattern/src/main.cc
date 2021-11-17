@@ -11,5 +11,5 @@ int main(int argc, char* argv[]) {
     std::unique_ptr<Abstraction> abs_b_ptr = std::make_unique<RefinedAbstraction>(imp_b_ptr);
     abs_b_ptr->operation();
 
-    return EXIT_SUCCESS;
+    return 0;
 }

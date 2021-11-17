@@ -8,5 +8,5 @@ int main(int argc, char* argv[]) {
     c_ptr->request();
     c_ptr->request();
 
-    return EXIT_SUCCESS;
+    return 0;
 }

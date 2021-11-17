@@ -13,5 +13,5 @@ int main(int argc, char* argv[]) {
     cx2_ptr->setStrategy(s2_ptr);
     cx2_ptr->algorithm();
     
-    return EXIT_SUCCESS;
+    return 0;
 }

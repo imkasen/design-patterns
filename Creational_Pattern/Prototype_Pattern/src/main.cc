@@ -12,5 +12,5 @@ int main(int argc, char* argv[]) {
     std::shared_ptr<Prototype> clone_prototype2 = prototype2->clone();
     clone_prototype2->show();
 
-    return EXIT_SUCCESS;
+    return 0;
 }

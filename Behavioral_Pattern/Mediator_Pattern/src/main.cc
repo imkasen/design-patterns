@@ -8,5 +8,5 @@ int main(int argc, char* argv[]) {
     com1_ptr->doA();
     com2_ptr->doD();
 
-    return EXIT_SUCCESS;
+    return 0;
 }

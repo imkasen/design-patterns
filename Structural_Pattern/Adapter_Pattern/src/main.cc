@@ -5,5 +5,5 @@ int main(int argc, char* argv[]) {
     std::unique_ptr<Target> target_ptr = std::make_unique<Adapter>(adaptee_ptr);
     target_ptr->request();
 
-    return EXIT_SUCCESS;
+    return 0;
 }

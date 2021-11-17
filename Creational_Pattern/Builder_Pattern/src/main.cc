@@ -8,5 +8,5 @@ int main(int argc, char* argv[]) {
     std::shared_ptr<Product> prd_ptr = director_ptr->construct();
     prd_ptr->show();
 
-    return EXIT_SUCCESS;
+    return 0;
 }

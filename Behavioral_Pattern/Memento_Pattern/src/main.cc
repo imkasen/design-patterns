@@ -22,5 +22,5 @@ int main(int argc, char* argv[]) {
     std::cout << "Client: Once more!" << std::endl;
     caretaker_ptr->undo();
 
-    return EXIT_SUCCESS;
+    return 0;
 }

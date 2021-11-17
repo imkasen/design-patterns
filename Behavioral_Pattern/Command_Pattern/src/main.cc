@@ -7,5 +7,5 @@ int main(int argc, char* argv[]) {
     std::shared_ptr<Invoker> invoker_ptr = std::make_shared<Invoker>(cc_ptr);
     invoker_ptr->call();
 
-    return EXIT_SUCCESS;
+    return 0;
 }

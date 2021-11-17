@@ -22,5 +22,5 @@ int main(int argc, char* argv[]) {
 
     tree->operation();
 
-    return EXIT_SUCCESS;
+    return 0;
 }
