@@ -2,7 +2,7 @@
 
 参考自[《图解设计模式》](https://design-patterns.readthedocs.io/zh_CN/latest/index.html)和[《深入设计模式》](https://refactoringguru.cn/design-patterns)。
 
-# Code
+## Code
 
 * [创建型模式](./Creational_Pattern/README.md)
   1. [简单工厂模式](./Creational_Pattern/Simple_Factory_Pattern/README.md)
