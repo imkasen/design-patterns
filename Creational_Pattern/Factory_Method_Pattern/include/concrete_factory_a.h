@@ -6,9 +6,6 @@
 
 class ConcreteFactoryA : public Factory {
 public:
-    ConcreteFactoryA() = default;
-    ~ConcreteFactoryA() = default;
-
     std::unique_ptr<Product> factoryMethod() override;
 };
 

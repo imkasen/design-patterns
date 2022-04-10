@@ -3,9 +3,6 @@
 
 class AbstractProductB {
 public:
-    AbstractProductB() = default;
-    virtual ~AbstractProductB() = default;
-
     virtual void eat() const = 0;
 };
 

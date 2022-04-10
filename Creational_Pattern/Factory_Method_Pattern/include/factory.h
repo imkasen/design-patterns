@@ -6,9 +6,6 @@
 
 class Factory {
 public:
-    Factory() = default;
-    virtual ~Factory() = default;
-
     virtual std::unique_ptr<Product> factoryMethod() = 0;
 };
 

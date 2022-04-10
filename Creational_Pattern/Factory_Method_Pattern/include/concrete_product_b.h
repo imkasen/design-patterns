@@ -6,9 +6,6 @@
 
 class ConcreteProductB : public Product {
 public:
-    ConcreteProductB() = default;
-    ~ConcreteProductB() = default;
-
     void use() const override;
 };
 

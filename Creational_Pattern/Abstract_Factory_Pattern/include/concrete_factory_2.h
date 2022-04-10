@@ -7,9 +7,6 @@
 
 class ConcreteFactory2 : public AbstractFactory {
 public:
-    ConcreteFactory2() = default;
-    ~ConcreteFactory2() = default;
-
     std::unique_ptr<AbstractProductA> createProductA() override;
     std::unique_ptr<AbstractProductB> createProductB() override;
 };

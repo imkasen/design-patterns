@@ -3,9 +3,6 @@
 
 class Product {
 public:
-    Product() = default;
-    virtual ~Product() = default;
-
     virtual void use() const = 0;
 };
 

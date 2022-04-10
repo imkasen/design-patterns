@@ -7,9 +7,6 @@
 
 class AbstractFactory {
 public:
-    AbstractFactory() = default;
-    virtual ~AbstractFactory() = default;
-
     virtual std::unique_ptr<AbstractProductA> createProductA() = 0;
     virtual std::unique_ptr<AbstractProductB> createProductB() = 0;
 };

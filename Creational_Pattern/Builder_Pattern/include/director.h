@@ -7,9 +7,6 @@ class Director {
 private:
     std::shared_ptr<Builder> builder;
 public:
-    Director() = default;
-    ~Director() = default;
-
     std::shared_ptr<Product> construct();
     void setBuilder(const std::shared_ptr<Builder> &builder_ptr);
 };

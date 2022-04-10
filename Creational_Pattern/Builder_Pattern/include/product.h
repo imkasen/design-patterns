@@ -11,9 +11,6 @@ private:
     std::string str_c;
 
 public:
-    Product() = default;
-    ~Product() = default;
-
     void setA(const std::string &str);
     void setB(const std::string &str);
     void setC(const std::string &str);

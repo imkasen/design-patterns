@@ -8,9 +8,6 @@ class Singleton {
 private:
     inline static std::shared_ptr<Singleton> instance = nullptr;
 public:
-    Singleton() = default;
-    ~Singleton() = default;
-
     static std::shared_ptr<Singleton> getInstance();
     void singletonOperation() const;
 };

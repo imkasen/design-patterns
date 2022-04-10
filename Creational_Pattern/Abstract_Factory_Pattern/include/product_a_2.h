@@ -6,9 +6,6 @@
 
 class ProductA2 : public AbstractProductA {
 public:
-    ProductA2() = default;
-    ~ProductA2() = default;
-
     void use() const override;
 };
 

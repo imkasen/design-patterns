@@ -6,9 +6,6 @@
 
 class ProductB1 : public AbstractProductB {
 public:
-    ProductB1() = default;
-    ~ProductB1() = default;
-
     void eat() const override;
 };
 

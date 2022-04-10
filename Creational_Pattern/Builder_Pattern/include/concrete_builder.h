@@ -6,7 +6,6 @@
 class ConcreteBuilder : public Builder {
 public:
     ConcreteBuilder();
-    ~ConcreteBuilder() = default;
 
     void buildPartA() override;
     void buildPartB() override;
